@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0AE0DA1FCE5A85006BAAE4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0AE0D91FCE5A85006BAAE4 /* UIView+Extension.swift */; };
+		5D0AE0DC1FCE61BA006BAAE4 /* BabyCustomPassWord.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DCC9EDC1FCE47620056C3C7 /* BabyCustomPassWord.xib */; };
 		5DCC9EC51FCE45950056C3C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC9EC41FCE45950056C3C7 /* AppDelegate.swift */; };
 		5DCC9EC71FCE45950056C3C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC9EC61FCE45950056C3C7 /* ViewController.swift */; };
 		5DCC9ECA1FCE45950056C3C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCC9EC81FCE45950056C3C7 /* Main.storyboard */; };
 		5DCC9ECC1FCE45950056C3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCC9ECB1FCE45950056C3C7 /* Assets.xcassets */; };
 		5DCC9ECF1FCE45950056C3C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCC9ECD1FCE45950056C3C7 /* LaunchScreen.storyboard */; };
+		5DCC9EDB1FCE474A0056C3C7 /* BabyCustomPassWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC9EDA1FCE474A0056C3C7 /* BabyCustomPassWord.swift */; };
+		66B90B7E327A0CD062EB1FBB /* Pods_BabyCustomEnterPassWord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63EB42851A299414F1E5C61 /* Pods_BabyCustomEnterPassWord.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D0AE0D91FCE5A85006BAAE4 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		5DCC9EC11FCE45950056C3C7 /* BabyCustomEnterPassWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyCustomEnterPassWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCC9EC41FCE45950056C3C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DCC9EC61FCE45950056C3C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,11 @@
 		5DCC9ECB1FCE45950056C3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DCC9ECE1FCE45950056C3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DCC9ED01FCE45950056C3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DCC9EDA1FCE474A0056C3C7 /* BabyCustomPassWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyCustomPassWord.swift; sourceTree = "<group>"; };
+		5DCC9EDC1FCE47620056C3C7 /* BabyCustomPassWord.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BabyCustomPassWord.xib; sourceTree = "<group>"; };
+		813532C8136CFCA7F979CFBE /* Pods-BabyCustomEnterPassWord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyCustomEnterPassWord.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabyCustomEnterPassWord/Pods-BabyCustomEnterPassWord.release.xcconfig"; sourceTree = "<group>"; };
+		D9B4BCF11AAC4C7E9FB05E4D /* Pods-BabyCustomEnterPassWord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyCustomEnterPassWord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabyCustomEnterPassWord/Pods-BabyCustomEnterPassWord.debug.xcconfig"; sourceTree = "<group>"; };
+		F63EB42851A299414F1E5C61 /* Pods_BabyCustomEnterPassWord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyCustomEnterPassWord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B90B7E327A0CD062EB1FBB /* Pods_BabyCustomEnterPassWord.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ADA9D5840727A11AC538813 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4BCF11AAC4C7E9FB05E4D /* Pods-BabyCustomEnterPassWord.debug.xcconfig */,
+				813532C8136CFCA7F979CFBE /* Pods-BabyCustomEnterPassWord.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D0AE0D61FCE595C006BAAE4 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				5D0AE0D91FCE5A85006BAAE4 /* UIView+Extension.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
 		5DCC9EB81FCE45950056C3C7 = {
 			isa = PBXGroup;
 			children = (
 				5DCC9EC31FCE45950056C3C7 /* BabyCustomEnterPassWord */,
 				5DCC9EC21FCE45950056C3C7 /* Products */,
+				1ADA9D5840727A11AC538813 /* Pods */,
+				E7BC44D6E1B2F204F6949B6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,41 @@
 		5DCC9EC31FCE45950056C3C7 /* BabyCustomEnterPassWord */ = {
 			isa = PBXGroup;
 			children = (
-				5DCC9EC41FCE45950056C3C7 /* AppDelegate.swift */,
+				5D0AE0D61FCE595C006BAAE4 /* Extention */,
+				5DCC9ED91FCE47170056C3C7 /* BabyCustomPW */,
+				5DCC9ED61FCE45C90056C3C7 /* Main */,
 				5DCC9EC61FCE45950056C3C7 /* ViewController.swift */,
-				5DCC9EC81FCE45950056C3C7 /* Main.storyboard */,
+			);
+			path = BabyCustomEnterPassWord;
+			sourceTree = "<group>";
+		};
+		5DCC9ED61FCE45C90056C3C7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
 				5DCC9ECB1FCE45950056C3C7 /* Assets.xcassets */,
+				5DCC9EC81FCE45950056C3C7 /* Main.storyboard */,
+				5DCC9EC41FCE45950056C3C7 /* AppDelegate.swift */,
 				5DCC9ECD1FCE45950056C3C7 /* LaunchScreen.storyboard */,
 				5DCC9ED01FCE45950056C3C7 /* Info.plist */,
 			);
-			path = BabyCustomEnterPassWord;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5DCC9ED91FCE47170056C3C7 /* BabyCustomPW */ = {
+			isa = PBXGroup;
+			children = (
+				5DCC9EDA1FCE474A0056C3C7 /* BabyCustomPassWord.swift */,
+				5DCC9EDC1FCE47620056C3C7 /* BabyCustomPassWord.xib */,
+			);
+			path = BabyCustomPW;
+			sourceTree = "<group>";
+		};
+		E7BC44D6E1B2F204F6949B6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F63EB42851A299414F1E5C61 /* Pods_BabyCustomEnterPassWord.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DCC9ED31FCE45950056C3C7 /* Build configuration list for PBXNativeTarget "BabyCustomEnterPassWord" */;
 			buildPhases = (
+				B912764B5A6AA31128FB460E /* [CP] Check Pods Manifest.lock */,
 				5DCC9EBD1FCE45950056C3C7 /* Sources */,
 				5DCC9EBE1FCE45950056C3C7 /* Frameworks */,
 				5DCC9EBF1FCE45950056C3C7 /* Resources */,
+				C13C2BF3ADC4B9256C054EDC /* [CP] Embed Pods Frameworks */,
+				E7E0AE41E94D9672FECCDC00 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,10 +186,65 @@
 				5DCC9ECF1FCE45950056C3C7 /* LaunchScreen.storyboard in Resources */,
 				5DCC9ECC1FCE45950056C3C7 /* Assets.xcassets in Resources */,
 				5DCC9ECA1FCE45950056C3C7 /* Main.storyboard in Resources */,
+				5D0AE0DC1FCE61BA006BAAE4 /* BabyCustomPassWord.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B912764B5A6AA31128FB460E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabyCustomEnterPassWord-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C13C2BF3ADC4B9256C054EDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BabyCustomEnterPassWord/Pods-BabyCustomEnterPassWord-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyCustomEnterPassWord/Pods-BabyCustomEnterPassWord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E0AE41E94D9672FECCDC00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyCustomEnterPassWord/Pods-BabyCustomEnterPassWord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5DCC9EBD1FCE45950056C3C7 /* Sources */ = {
@@ -138,6 +253,8 @@
 			files = (
 				5DCC9EC71FCE45950056C3C7 /* ViewController.swift in Sources */,
 				5DCC9EC51FCE45950056C3C7 /* AppDelegate.swift in Sources */,
+				5D0AE0DA1FCE5A85006BAAE4 /* UIView+Extension.swift in Sources */,
+				5DCC9EDB1FCE474A0056C3C7 /* BabyCustomPassWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,28 +389,30 @@
 		};
 		5DCC9ED41FCE45950056C3C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B4BCF11AAC4C7E9FB05E4D /* Pods-BabyCustomEnterPassWord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BabyCustomEnterPassWord/Info.plist;
+				INFOPLIST_FILE = BabyCustomEnterPassWord/Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BabyShuang.XYZ.BabyCustomEnterPassWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		5DCC9ED51FCE45950056C3C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813532C8136CFCA7F979CFBE /* Pods-BabyCustomEnterPassWord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BabyCustomEnterPassWord/Info.plist;
+				INFOPLIST_FILE = BabyCustomEnterPassWord/Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BabyShuang.XYZ.BabyCustomEnterPassWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
